@@ -59,7 +59,9 @@ Your personal chat_id: xxxxxxxxx
 Edit `med.py`:
 
 TOKEN = "ВСТАВЬТЕ_ТОКЕН_ИЗ_BOTFATHER"
+
 CHAT_ID = "ВСТАВЬТЕ_АЙДИ_ЧАТА"
+
 DATA_IN ="ВСТАВЬТЕ_ПРОВЕРЯЕМЫЙ_НОМЕР_ПАСПОРТА" 
 
 HEADLESS = True  
