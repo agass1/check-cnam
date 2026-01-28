@@ -85,16 +85,6 @@ False — sends notification only if status != ASIGURAT
 
 ---------------------------------------------------------------
 
-## Notification Logic
-
-if TESTMODE:
-    send_telegram_message(f"[TEST] Status: {result}")
-    
-else:
-    if result.strip().upper() != "ASIGURAT":
-        send_telegram_message("Seems your health insurance expired")
-
----------------------------------------------------------------
 
 ## Autostart
 
